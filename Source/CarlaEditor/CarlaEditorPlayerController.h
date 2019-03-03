@@ -86,6 +86,8 @@ class CARLAEDITOR_API ACarlaEditorPlayerController : public APlayerController
 
 		void DisplayActorTable();
 
+		void ConsumeEscClick();
+
 		UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
 		UEditorGUI* EditorGUI;
 

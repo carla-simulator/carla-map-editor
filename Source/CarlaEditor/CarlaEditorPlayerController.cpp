@@ -23,6 +23,7 @@ void ACarlaEditorPlayerController::BeginPlay()
     SetInputMode(FInputModeGameAndUI());
     GameMode = static_cast<ACarlaEditorGameModeBase*>(GetWorld()->GetAuthGameMode());
     EditorGUI = GameMode->GetEditorGUI();
+    bShowMouseCursor = true;
 }
 
 void ACarlaEditorPlayerController::Tick(float DeltaSeconds)
@@ -39,6 +40,7 @@ void ACarlaEditorPlayerController::SetupInputComponent()
     UPlayerInput::AddEngineDefinedActionMapping(FInputActionKeyMapping("DeleteClick", EKeys::Delete));
     UPlayerInput::AddEngineDefinedActionMapping(FInputActionKeyMapping("DisplayGUI", EKeys::M));
     UPlayerInput::AddEngineDefinedActionMapping(FInputActionKeyMapping("DisplayActorTable", EKeys::T));
+    UPlayerInput::AddEngineDefinedActionMapping(FInputActionKeyMapping("ExitEditor", EKeys::P));
     UPlayerInput::AddEngineDefinedAxisMapping(FInputAxisKeyMapping("MouseXMovement", EKeys::MouseX, 1.f));
     UPlayerInput::AddEngineDefinedAxisMapping(FInputAxisKeyMapping("MouseYMovement", EKeys::MouseY, -1.f));
 
@@ -48,6 +50,7 @@ void ACarlaEditorPlayerController::SetupInputComponent()
     InputComponent->BindAction("DeleteClick", IE_Pressed, this, &ACarlaEditorPlayerController::ConsumeDeleteClick);
     InputComponent->BindAction("DisplayGUI", IE_Pressed, this, &ACarlaEditorPlayerController::DisplayGUI);
     InputComponent->BindAction("DisplayActorTable", IE_Pressed, this, &ACarlaEditorPlayerController::DisplayActorTable);
+    InputComponent->BindAction("ExitEditor", IE_Pressed, this, &ACarlaEditorPlayerController::ConsumeEscClick);
     InputComponent->BindAxis("MouseXMovement", this, &ACarlaEditorPlayerController::ConsumeMouseXMovement);
     InputComponent->BindAxis("MouseYMovement", this, &ACarlaEditorPlayerController::ConsumeMouseYMovement);
 }
@@ -161,6 +164,11 @@ void ACarlaEditorPlayerController::DisplayGUI()
 void ACarlaEditorPlayerController::DisplayActorTable()
 {
     EditorGUI->DisplayActorTable();
+}
+
+void ACarlaEditorPlayerController::ConsumeEscClick()
+{
+    FGenericPlatformMisc::RequestExit(false);
 }
 
 void ACarlaEditorPlayerController::ConsumeMouseXMovement(float Value)

@@ -20,8 +20,7 @@ best to switch to the `stable` branch.
 
 Run Update.sh to download the assets to the Content folder. 
 
-Run make to open the Unreal Editor and from here the project can be packaged.
-
+Run make to open the Unreal Editor and from here the project can be packaged by selecting Package Project from the Edit menu.
 
 
 Using the CARLA Map Editor
@@ -46,11 +45,13 @@ Controls:
 - The actor can be deselected by double-clicking the right mouse button.
 - The GUI visibility can be toggled with the M key.
 - The actor table visibility can be toggled with the T key.
-- ESC key exits the application.
+- DELETE key deletes the selected actor.
+- P key exits the application.
 - The create button spawns actors.
 - The export button exports the current data to the XODR file.
 
 Importing/Exporting FBX and XODR:
+- Create directories called Import and Export (case-sensitive) in the same folder as CarlaEditor.sh. 
 - Place FBX and XODR files in the Import directory. The files can have any name.
 - The modifed XODR file will be created in the Export directory.
 

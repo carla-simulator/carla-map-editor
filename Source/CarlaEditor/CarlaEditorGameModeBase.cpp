@@ -84,12 +84,15 @@ void ACarlaEditorGameModeBase::LoadMeshes()
     {
         FReturnedData Data = ULoaderBPFunctionLibrary::LoadMesh(ImportDirectory + "/" + FileName, EPathType::Relative);
         FString Outcome = Data.bSuccess ? "True" : "False";
-        UE_LOG(LogTemp, Warning, TEXT("Was Success: %s\n"), *Outcome);
-        // for (auto& MeshInfo : Data.MeshInfoArray)
-        // {
-        //     UE_LOG(LogTemp, Warning, TEXT("Mesh Name: %s\n"), *MeshInfo.Name);
-        //     UE_LOG(LogTemp, Warning, TEXT("Mesh Material Name: %s\n"), *MeshInfo.MaterialName);
-        // }
+        if (Data.bSuccess)
+        {
+            UE_LOG(LogTemp, Log, TEXT("FBX file Loaded successfully\n"));
+        }
+        else
+        {
+             UE_LOG(LogTemp, Error, TEXT("Error occured loading the FBX file\n"));
+        }
+
         for (auto& MeshInfo : Data.MeshInfoArray)
         {
             UE_LOG(LogTemp, Warning, TEXT("Mesh Name: %s\n"), *MeshInfo.Name);
