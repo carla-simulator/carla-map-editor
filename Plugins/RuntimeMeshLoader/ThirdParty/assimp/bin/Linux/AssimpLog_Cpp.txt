@@ -1,0 +1,1440 @@
+Info,  T0: Load daedae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: Found positive match for header keyword: <collada
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: Collada schema version is 1.4.n
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: START `t1`
+Debug, T0: END   `t1`, dt= 6.381e-06 s
+Info,  T0: Load /home/aclear/assimp/test/models/LWS/move_x.lws
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: LightWave Scene Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/LWS/'
+Debug, T0: LWS: Skipping over plugin-specific data
+Skipping one or more lines with the same contents
+Info,  T0: LWS file format version is 5
+Info,  T0: %%% BEGIN EXTERNAL FILE %%%
+Info,  T0: File: simple_cube.lwo
+Info,  T0: Load simple_cube.lwo
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: LightWave/Modo Object Importer.
+Info,  T0: Import root directory is './'
+Info,  T0: LWO file format: LWO2 (>= LightWave 6)
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Info,  T0: %%% END EXTERNAL FILE %%%
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Info,  T0: Load /home/aclear/assimp/test/models/SMD/triangle.smd
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Valve SMD Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/SMD/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/SMD/holy_grailref.smd
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Valve SMD Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/SMD/'
+Error, T0: [SMD/VTA] Bone index overflow. The bone index will be ignored, the weight will be assigned to the vertex' parent node
+Skipping one or more lines with the same contents
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/glTF/TwoBoxes/TwoBoxes.gltf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Info,  T0: Found a matching importer for this file format: glTF Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/glTF/TwoBoxes/'
+Debug, T0: MakeVerboseFormatProcess begin
+Info,  T0: MakeVerboseFormatProcess finished. There was much work to do ...
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Info,  T0: Found a matching importer for this file format: glTF2 Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/glTF2/BoxTextured-glTF/'
+Debug, T0: MakeVerboseFormatProcess begin
+Info,  T0: MakeVerboseFormatProcess finished. There was much work to do ...
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/glTF2/2CylinderEngine-glTF-Binary/2CylinderEngine.glb
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Info,  T0: Found a matching importer for this file format: glTF2 Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/glTF2/2CylinderEngine-glTF-Binary/'
+Debug, T0: MakeVerboseFormatProcess begin
+Info,  T0: MakeVerboseFormatProcess finished. There was much work to do ...
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/glTF2/BoxTextured-glTF/BoxTextured.gltf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Info,  T0: Found a matching importer for this file format: glTF2 Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/glTF2/BoxTextured-glTF/'
+Debug, T0: MakeVerboseFormatProcess begin
+Info,  T0: MakeVerboseFormatProcess finished. There was much work to do ...
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (Mesh) | Verts in: 36 out: 24 | ~33.3333%
+Info,  T0: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3%
+Debug, T0: SplitLargeMeshesProcess_Triangle begin
+Debug, T0: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T0: SplitLargeMeshesProcess_Vertex begin
+Debug, T0: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Info,  T0: Load /home/aclear/assimp/test/models/HMP/terrain.hmp
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: 3D GameStudio Heightmap (HMP) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/HMP/'
+Debug, T0: HMP subtype: 3D GameStudio A7, magic word is HMP7
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/IFC/AC14-FZK-Haus.ifc
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Industry Foundation Classes (IFC) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/IFC/'
+Debug, T0: IFC: File schema is 'IFC2X3'
+Debug, T0: STEP: got 82226 object records with 5788 inverse index entries
+Debug, T0: IFC: got units used for lengths
+Debug, T0: IFC: got units used for angles
+Debug, T0: IFC: got world coordinate system
+Debug, T0: IFC: looking at spatial structure `Gelände`
+Debug, T0: IFC: selecting this spatial structure as root structure
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing degenerate faces
+Skipping one or more lines with the same contents
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: skipping IfcAnnotation entity due to importer settings
+Skipping one or more lines with the same contents
+Debug, T0: IFC: skipping IfcSpace entity due to importer settings
+Skipping one or more lines with the same contents
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping with polygonal bounding (IfcBooleanClippingResult)
+Skipping one or more lines with the same contents
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Warn,  T0: IFC: skipping unknown IfcGeometricRepresentationItem entity, type is IfcPolyline
+Debug, T0: IFC: removing duplicate vertices
+Error, T0: IFC: failed to generate all window caps
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping with polygonal bounding (IfcBooleanClippingResult)
+Skipping one or more lines with the same contents
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Skipping one or more lines with the same contents
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: generating CSG geometry by plane clipping (IfcBooleanClippingResult)
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Warn,  T0: IFC: failed to resolve all openings, presumably their topology is not supported by Assimp
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: removing degenerate faces
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: removing duplicate vertices
+Debug, T0: IFC: generate mesh procedurally by extrusion (IfcExtrudedAreaSolid)
+Debug, T0: IFC: skipping IfcAnnotation entity due to importer settings
+Skipping one or more lines with the same contents
+Debug, T0: IFC: skipping IfcSpace entity due to importer settings
+Debug, T0: IFC: STEP: evaluated 70094 object records
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/FBX/spider.fbx
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Autodesk FBX Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/FBX/'
+Warn,  T0: FBX-DOM (TOK_KEY, offset 0x1b544) shading mode not recognized: Phong
+Warn,  T0: FBX-DOM (TOK_KEY, offset 0x1b96a) shading mode not recognized: Phong
+Warn,  T0: FBX-DOM (TOK_KEY, offset 0x1bd8d) shading mode not recognized: Phong
+Warn,  T0: FBX-DOM (TOK_KEY, offset 0x1c1b4) shading mode not recognized: Phong
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load $$$___magic___$$$.3ds
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Discreet 3DS Importer.
+Info,  T0: Import root directory is './'
+Info,  T0: 3DS file format version: 3
+Warn,  T0: 3DS: Skipping TCB animation info
+Skipping one or more lines with the same contents
+Error, T0: 3DS: Skipping FOV animation track. This is not supported
+Warn,  T0: 3DS: Skipping TCB animation info
+Skipping one or more lines with the same contents
+Info,  T0: 3DS: Generating default material
+Debug, T0: 3DS: Converting camera roll track ...
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Setting animation duration
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: SplitLargeMeshesProcess_Triangle begin
+Debug, T0: SplitLargeMeshesProcess_Triangle finished. There was nothing to do
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: CalcTangentsProcess begin
+Info,  T0: CalcTangentsProcess finished. Tangents have been calculated
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (0) | Verts in: 36 out: 24 | ~33.3333%
+Info,  T0: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3%
+Debug, T0: SplitLargeMeshesProcess_Vertex begin
+Debug, T0: SplitLargeMeshesProcess_Vertex finished. There was nothing to do
+Debug, T0: LimitBoneWeightsProcess begin
+Debug, T0: LimitBoneWeightsProcess end
+Debug, T0: ImproveCacheLocalityProcess begin
+Debug, T0: Mesh 0 | ACMR in: 2.000000 out: 2.000000 | ~0.0%
+Info,  T0: Cache relevant are 1 meshes (12 faces). Average output ACMR is 2.000000
+Debug, T0: ImproveCacheLocalityProcess finished. 
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Registering custom importer for these file extensions: applelinuxmacwindows
+Info,  T0: Unregistering custom importer: 
+Info,  T0: Load /home/aclear/assimp/test/models/X/test.x
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Unknown data object in mesh in x file
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: OptimizeGraphProcess begin
+Debug, T0: OptimizeGraphProcess finished
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: Skipping OptimizeMeshesProcess
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (pCube1) | Verts in: 36 out: 24 | ~33.3333%
+Info,  T0: JoinVerticesProcess finished | Verts in: 36 out: 24 | ~33.3%
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load /home/aclear/assimp/test/models/X/Testwuson.X
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Unknown data object in animation of .x file
+Skipping one or more lines with the same contents
+Warn,  T0: Unknown data object in frame in x file
+Skipping one or more lines with the same contents
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: OptimizeGraphProcess begin
+Debug, T0: OptimizeGraphProcess finished
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: Skipping OptimizeMeshesProcess
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (Wuson) | Verts in: 11196 out: 3205 | ~71.3737%
+Info,  T0: JoinVerticesProcess finished | Verts in: 11196 out: 3205 | ~71.4%
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load /home/aclear/assimp/test/models/X/anim_test.x
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Length of texture file name is zero. Skipping this texture.
+Warn,  T0: Unknown data object in mesh in x file
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: OptimizeGraphProcess begin
+Debug, T0: OptimizeGraphProcess finished
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Warn,  T0: Simplified dummy tracks with just one key
+Skipping one or more lines with the same contents
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: Skipping OptimizeMeshesProcess
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (pCylinder1) | Verts in: 2520 out: 485 | ~80.754%
+Info,  T0: JoinVerticesProcess finished | Verts in: 2520 out: 485 | ~80.8%
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load /home/aclear/assimp/test/models/X/anim_test.x
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Length of texture file name is zero. Skipping this texture.
+Warn,  T0: Unknown data object in mesh in x file
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: OptimizeGraphProcess begin
+Debug, T0: OptimizeGraphProcess finished
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 1, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Warn,  T0: Simplified dummy tracks with just one key
+Skipping one or more lines with the same contents
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: Skipping OptimizeMeshesProcess
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (pCylinder1) | Verts in: 2520 out: 485 | ~80.754%
+Info,  T0: JoinVerticesProcess finished | Verts in: 2520 out: 485 | ~80.8%
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load /home/aclear/assimp/test/models/X/BCN_Epileptic.X
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Unknown data object in animation of .x file
+Skipping one or more lines with the same contents
+Warn,  T0: Unknown data object in frame in x file
+Skipping one or more lines with the same contents
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Entering post processing pipeline
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: RemoveRedundantMatsProcess finished 
+Debug, T0: OptimizeGraphProcess begin
+Debug, T0: OptimizeGraphProcess finished
+Debug, T0: FindDegeneratesProcess begin
+Debug, T0: FindDegeneratesProcess finished
+Debug, T0: GenUVCoordsProcess begin
+Debug, T0: GenUVCoordsProcess finished
+Debug, T0: TriangulateProcess begin
+Debug, T0: TriangulateProcess finished. There was nothing to be done.
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 0, Lines: 0, Triangles: 3, Polygons: 0 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
+Debug, T0: FindInvalidDataProcess begin
+Debug, T0: FindInvalidDataProcess finished. Everything seems to be OK.
+Debug, T0: OptimizeMeshesProcess begin
+Debug, T0: OptimizeMeshesProcess finished
+Debug, T0: Generate spatially-sorted vertex cache
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: JoinVerticesProcess begin
+Debug, T0: Mesh 0 (Torso) | Verts in: 5898 out: 1170 | ~80.1628%
+Debug, T0: Mesh 1 (Head) | Verts in: 6108 out: 1196 | ~80.4191%
+Debug, T0: Mesh 2 (Legs) | Verts in: 3372 out: 648 | ~80.7829%
+Info,  T0: JoinVerticesProcess finished | Verts in: 15378 out: 3014 | ~80.4%
+Info,  T0: Leaving post processing pipeline
+Info,  T0: Load /home/aclear/assimp/test/models/3D/box_a.3d
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Unreal Mesh Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/3D/'
+Debug, T0: UNREAL: data file is /home/aclear/assimp/test/models/3D/box_d.3d
+Debug, T0: UNREAL: aniv file is /home/aclear/assimp/test/models/3D/box_a.3d
+Debug, T0: UNREAL: uc file is /home/aclear/assimp/test/models/3D/box.uc
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/3DS/fels.3ds
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Discreet 3DS Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/3DS/'
+Info,  T0: 3DS file format version: 3
+Warn,  T0: No hierarchy information has been found in the file. 
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/AC/Wuson.ac
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: AC3D Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/AC/'
+Info,  T0: AC3D file format version: 11
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/AMF/test1.amf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Additive manufacturing file format(AMF) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/AMF/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Info,  T0: Load /home/aclear/assimp/test/models/ASE/ThreeCubesGreen.ASE
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: ASE Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/ASE/'
+Info,  T0: Line 1: Comment: AsciiExport-Version  2,00 - Tue May 06 17:21:38 2008
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/3MF/box.3mf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: 3mf Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/3MF/'
+Debug, T0: 3D/3dmodel.model
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Info,  T0: Load /home/aclear/assimp/test/models/3MF/box.3mf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: 3mf Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/3MF/'
+Debug, T0: 3D/3dmodel.model
+Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Info,  T0: Load /home/aclear/assimp/test/models/Q3D/earth.q3o
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Quick3D Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/Q3D/'
+Info,  T0: Quick3D File format version: 30
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/STL/Spider_ascii.stl
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Stereolithography (STL) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/STL/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/STL/triangle_with_two_solids.stl
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Stereolithography (STL) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/STL/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/X/test.x
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Direct3D XFile Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X/'
+Warn,  T0: Unknown data object in mesh in x file
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/X3D/ComputerKeyboard.x3d
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Extensible 3D(X3D) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/X3D/'
+Info,  T0: Skipping node "Viewpoint" in Scene.
+Info,  T0: Skipping node "TouchSensor" in Scene.
+Info,  T0: Skipping node "TimeSensor" in Scene.
+Info,  T0: Skipping node "PositionInterpolator" in Scene.
+Info,  T0: Skipping node "ROUTE" in Scene.
+Skipping one or more lines with the same contents
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/DXF/PinkEggFromLW.dxf
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Drawing Interchange Format (DXF) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/DXF/'
+Debug, T0: DXF: got 0 entries in BLOCKS
+Debug, T0: DXF: got 288 polylines and 0 inserted blocks in ENTITIES
+Debug, T0: DXF: Unexpanded polycount is 288, vertex count is 1152
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/PLY/cube.ply
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/PLY/'
+Debug, T0: PLY::DOM::ParseInstance() begin
+Debug, T0: PLY::DOM::ParseHeader() begin
+Debug, T0: PLY::DOM::ParseHeader() succeeded
+Debug, T0: PLY::DOM::ParseElementInstanceLists() begin
+Debug, T0: PLY::DOM::ParseElementInstanceLists() succeeded
+Debug, T0: PLY::DOM::ParseInstance() succeeded
+Info,  T0: Load /home/aclear/assimp/test/models/PLY/cube.ply
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/PLY/'
+Debug, T0: PLY::DOM::ParseInstance() begin
+Debug, T0: PLY::DOM::ParseHeader() begin
+Debug, T0: PLY::DOM::ParseHeader() succeeded
+Debug, T0: PLY::DOM::ParseElementInstanceLists() begin
+Debug, T0: PLY::DOM::ParseElementInstanceLists() succeeded
+Debug, T0: PLY::DOM::ParseInstance() succeeded
+Debug, T0: PretransformVerticesProcess begin
+Debug, T0: PretransformVerticesProcess finished
+Info,  T0: Removed 1 nodes and 0 animation channels (1 output nodes)
+Info,  T0: Kept 0 lights and 0 cameras
+Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)
+Info,  T0: Load /home/aclear/assimp/test/models/PLY/float-color.ply
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Stanford Polygon Library (PLY) Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/PLY/'
+Debug, T0: PLY::DOM::ParseInstance() begin
+Debug, T0: PLY::DOM::ParseHeader() begin
+Debug, T0: PLY::DOM::ParseHeader() succeeded
+Debug, T0: PLY::DOM::ParseElementInstanceLists() begin
+Debug, T0: PLY::DOM::ParseElementInstanceLists() succeeded
+Debug, T0: PLY::DOM::ParseInstance() succeeded
+Info,  T0: Load /home/aclear/assimp/test/models/OBJ/spider.obj
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/OBJ/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/OBJ/spider.obj
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/OBJ/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: usemtl
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Error, T0: OBJ: failed to locate material Default, creating new material
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: usemtl
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Info,  T0: Load /home/aclear/assimp/test/models/OBJ/cube_with_vertexcolors.obj
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/OBJ/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: GenVertexNormalsProcess begin
+Debug, T0: GenVertexNormalsProcess finished. Normals are already there
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: v 
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: ValidateDataStructureProcess begin
+Error, T0: Validation failed: aiScene::mNumMeshes is 0. At least one mesh must be there
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: v 
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: v 
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load $$$___magic___$$$.
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: File extension not known, trying signature-based detection
+Debug, T0: Found positive match for header keyword: v 
+Info,  T0: Found a matching importer for this file format: Wavefront Object Importer.
+Info,  T0: Import root directory is './'
+Error, T0: OBJ: Invalid face indice
+Info,  T0: Load /home/aclear/assimp/test/models/OpenGEX/Example.ogex
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Open Game Engine Exchange.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/OpenGEX/'
+Info,  T0: Load /home/aclear/assimp/test/models/OpenGEX/light_issue1262.ogex
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Open Game Engine Exchange.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/OpenGEX/'
+Info,  T0: Load /home/aclear/assimp/test/models/SIB/heffalump.sib
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Silo SIB Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/SIB/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/BLEND/AreaLight_269.blend
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Blender 3D Importer 
+http://www.blender3d.org.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/BLEND/'
+Info,  T0: BLEND: Blender version is 2.69 (64bit: true, little endian: true)
+Debug, T0: REND
+Debug, T0: TEST
+Debug, T0: GLOB
+Debug, T0: WM
+Debug, T0: DATA
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SC
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: CA
+Debug, T0: LA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: LA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: LA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: WO
+Debug, T0: DATA
+Debug, T0: OB
+Skipping one or more lines with the same contents
+Debug, T0: DATA
+Debug, T0: OB
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: OB
+Debug, T0: MA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: TE
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: ME
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: LS
+Debug, T0: DATA
+Debug, T0: DNA1
+Debug, T0: BlenderDNA: Got 551 structures with totally 6353 fields
+Info,  T0: BlenderDNA: Dumped dna to dna.txt
+Debug, T0: ENDB
+Warn,  T0: <add reason>
+Skipping one or more lines with the same contents
+Warn,  T0: BlendDNA: Did not find a field named `flags` in structure `Lamp`
+Warn,  T0: <add reason>
+Skipping one or more lines with the same contents
+Warn,  T0: BlendDNA: Did not find a field named `flags` in structure `Lamp`
+Warn,  T0: <add reason>
+Skipping one or more lines with the same contents
+Warn,  T0: BlendDNA: Did not find a field named `flags` in structure `Lamp`
+Info,  T0: (Stats) Fields read: 515, pointers resolved: 23, cache hits: 3, cached objects: 19
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/BLEND/box.blend
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Blender 3D Importer 
+http://www.blender3d.org.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/BLEND/'
+Info,  T0: BLEND: Blender version is 2.76 (64bit: true, little endian: true)
+Debug, T0: REND
+Debug, T0: TEST
+Debug, T0: GLOB
+Debug, T0: WM
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SC
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: CA
+Debug, T0: LA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: WO
+Debug, T0: DATA
+Debug, T0: OB
+Debug, T0: DATA
+Debug, T0: OB
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: OB
+Debug, T0: DATA
+Debug, T0: MA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: TE
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: ME
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: LS
+Debug, T0: DATA
+Debug, T0: DNA1
+Debug, T0: BlenderDNA: Got 604 structures with totally 6955 fields
+Info,  T0: BlenderDNA: Dumped dna to dna.txt
+Debug, T0: ENDB
+Warn,  T0: <add reason>
+Skipping one or more lines with the same contents
+Warn,  T0: BlendDNA: Did not find a field named `flags` in structure `Lamp`
+Info,  T0: (Stats) Fields read: 431, pointers resolved: 17, cache hits: 3, cached objects: 13
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/BLEND/BlenderMaterial_269.blend
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Blender 3D Importer 
+http://www.blender3d.org.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/BLEND/'
+Info,  T0: BLEND: Blender version is 2.69 (64bit: true, little endian: true)
+Debug, T0: REND
+Debug, T0: TEST
+Debug, T0: GLOB
+Debug, T0: WM
+Debug, T0: DATA
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SN
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: SC
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: CA
+Debug, T0: LA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: WO
+Debug, T0: DATA
+Debug, T0: AC
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: OB
+Debug, T0: DATA
+Debug, T0: OB
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: OB
+Debug, T0: DATA
+Debug, T0: MA
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: TE
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: ME
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: BR
+Debug, T0: DATA
+Skipping one or more lines with the same contents
+Debug, T0: LS
+Debug, T0: DATA
+Debug, T0: DNA1
+Debug, T0: BlenderDNA: Got 551 structures with totally 6353 fields
+Info,  T0: BlenderDNA: Dumped dna to dna.txt
+Debug, T0: ENDB
+Warn,  T0: <add reason>
+Skipping one or more lines with the same contents
+Warn,  T0: BlendDNA: Did not find a field named `flags` in structure `Lamp`
+Info,  T0: (Stats) Fields read: 431, pointers resolved: 17, cache hits: 3, cached objects: 13
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/BVH/01_01.bvh
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: BVH Importer (MoCap).
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/BVH/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/Collada/cameras.dae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/Collada/'
+Debug, T0: Collada schema version is 1.4.n
+Warn,  T0: Collada: Orthographic cameras are not supported.
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load cameraExp.dae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: Collada schema version is 1.4.n
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/Collada/lights.dae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/Collada/'
+Debug, T0: Collada schema version is 1.4.n
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load lightsExp.dae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Debug, T0: (Deleting previous scene)
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is './'
+Debug, T0: Collada schema version is 1.4.n
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/Collada/duck.dae
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: Collada Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/Collada/'
+Debug, T0: Collada schema version is 1.4.n
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Info,  T0: Load /home/aclear/assimp/test/models/CSM/ThomasFechten.csm
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: CharacterStudio Motion Importer (MoCap).
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/CSM/'
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy scaling track has been generated
+Info,  T0: Load /home/aclear/assimp/test/models/B3D/WusonBlitz.b3d
+Debug, T0: Assimp 4.1.134715837 amd64 gcc debug singlethreaded
+Info,  T0: Found a matching importer for this file format: BlitzBasic 3D Importer.
+Info,  T0: Import root directory is '/home/aclear/assimp/test/models/B3D/'
+Info,  T0: B3D file format version: 1
+Debug, T0: MakeLeftHandedProcess begin
+Debug, T0: MakeLeftHandedProcess finished
+Debug, T0: FlipWindingOrderProcess begin
+Debug, T0: FlipWindingOrderProcess finished
+Debug, T0: ValidateDataStructureProcess begin
+Debug, T0: ValidateDataStructureProcess end
+Debug, T0: RemoveRedundantMatsProcess begin
+Info,  T0: RemoveRedundantMatsProcess finished. Removed 2 redundant and 0 unused materials.
+Debug, T0: RemoveRedundantMatsProcess begin
+Debug, T0: Found positive match in exclusion list: 'Unique Mat2'
+Debug, T0: Found positive match in exclusion list: 'Complex material name'
+Info,  T0: RemoveRedundantMatsProcess finished. Removed 1 redundant and 0 unused materials.
+Debug, T0: RemoveVCProcess begin
+Debug, T0: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Debug, T0: RemoveVCProcess finished. Nothing to be done ...
+Debug, T0: Mesh 0 (unnamed) | Verts in: 900 out: 300 | ~66.6667%
+Debug, T0: RemoveVCProcess begin
+Debug, T0: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Debug, T0: RemoveVCProcess begin
+Debug, T0: Setting AI_SCENE_FLAGS_INCOMPLETE flag
+Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done.
+Info,  T0: Mesh exceeds the triangle limit. It will be split ...
+Warn,  T0: Found 300 degenerated primitives
+Skipping one or more lines with the same contents
+Warn,  T0: Found 200 degenerated primitives
+Error, T0: FindInvalidDataProcess fails on mesh uvcoords: INF/NAN was found in a vector component
+Error, T0: FindInvalidDataProcess fails on mesh normals: Found zero-length vector
+Error, T0: FindInvalidDataProcess fails on mesh bitangents: All vectors are identical
+Info,  T0: Removed 5500 weights. Input bones: 30. Output bones: 8
+Debug, T0: PretransformVerticesProcess begin
+Debug, T0: PretransformVerticesProcess finished
+Info,  T0: Removed 31 nodes and 0 animation channels (11 output nodes)
+Info,  T0: Kept 0 lights and 0 cameras
+Info,  T0: Moved 25 meshes to WCS (number of output meshes: 10)
+Debug, T0: PretransformVerticesProcess begin
+Info,  T0: PretransformVertices: Copying mesh due to mismatching transforms
+Skipping one or more lines with the same contents
+Debug, T0: PretransformVerticesProcess finished
+Info,  T0: Removed 31 nodes and 0 animation channels (31 output nodes)
+Info,  T0: Kept 0 lights and 0 cameras
+Info,  T0: Moved 25 meshes to WCS (number of output meshes: 49)
+Debug, T0: ScenePreprocessor: Dummy rotation track has been generated
+Debug, T0: ScenePreprocessor: Dummy position track has been generated
+Debug, T0: ScenePreprocessor: Setting animation duration
+Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'
+Debug, T0: SortByPTypeProcess begin
+Info,  T0: Points: 5, Lines: 6, Triangles: 5, Polygons: 5 (Meshes, X = removed)
+Debug, T0: SortByPTypeProcess finished
