@@ -14,31 +14,33 @@
 class UProceduralMeshComponent;
 
 UCLASS()
-class CARLAEDITOR_API AProceduralActor : public AActor
-{
-	GENERATED_BODY()
+class CARLAEDITOR_API AProceduralActor : public AActor {
+  GENERATED_BODY()
 
-public:
-	// Sets default values for this actor's properties
-	AProceduralActor();
+  public:
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+  // Sets default values for this actor's properties
+  AProceduralActor();
 
-	void PostActorCreated() override;
+  protected:
 
-	void PostLoad() override;
+  // Called when the game starts or when spawned
+  virtual void BeginPlay() override;
 
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+  void PostActorCreated() override;
 
-	void CreateMeshSection(const FMeshInfo& MeshInfo, UMaterial* Material);
+  void PostLoad() override;
 
-private:
-	UPROPERTY(Category="Procedural Actor", VisibleAnywhere)
-	UProceduralMeshComponent* Mesh;
+  public:
 
+  // Called every frame
+  virtual void Tick(float DeltaTime) override;
+
+  void CreateMeshSection(const FMeshInfo &MeshInfo, UMaterial *Material);
+
+  private:
+
+  UPROPERTY(Category = "Procedural Actor", VisibleAnywhere)
+  UProceduralMeshComponent *Mesh;
 
 };

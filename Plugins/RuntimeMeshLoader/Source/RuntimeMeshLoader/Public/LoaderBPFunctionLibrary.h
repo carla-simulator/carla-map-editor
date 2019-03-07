@@ -6,77 +6,70 @@
 #include "LoaderBPFunctionLibrary.generated.h"
 
 UENUM(BlueprintType)
-enum class EPathType : uint8
-{
-	Absolute,
-	Relative
-};
-
-
-USTRUCT(BlueprintType)
-struct FMeshInfo
-{
-	GENERATED_USTRUCT_BODY()
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FVector> Vertices;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<int32> Triangles;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FVector> Normals;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FVector2D> UV0;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FLinearColor> VertexColors;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FProcMeshTangent> Tangents;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		FTransform RelativeTransform;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		FTransform WorldTransform;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		FString Name;
-
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		FString MaterialName;
+enum class EPathType : uint8 {
+  Absolute,
+  Relative
 };
 
 USTRUCT(BlueprintType)
-struct FReturnedData
-{
-	GENERATED_USTRUCT_BODY()
+struct FMeshInfo {
+  GENERATED_USTRUCT_BODY()
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		bool bSuccess;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FVector> Vertices;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		int32 NumMeshes;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<int32> Triangles;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
-		TArray<FMeshInfo> MeshInfoArray;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FVector> Normals;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FVector2D> UV0;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FLinearColor> VertexColors;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FProcMeshTangent> Tangents;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  FTransform RelativeTransform;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  FTransform WorldTransform;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  FString Name;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  FString MaterialName;
 };
 
+USTRUCT(BlueprintType)
+struct FReturnedData {
+  GENERATED_USTRUCT_BODY()
 
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  bool bSuccess;
 
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  int32 NumMeshes;
+
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "ReturnedData")
+  TArray<FMeshInfo> MeshInfoArray;
+};
 
 /**
  *
  */
 UCLASS()
-class RUNTIMEMESHLOADER_API ULoaderBPFunctionLibrary : public UBlueprintFunctionLibrary
-{
-	GENERATED_BODY()
+class RUNTIMEMESHLOADER_API ULoaderBPFunctionLibrary : public UBlueprintFunctionLibrary {
+  GENERATED_BODY()
 
-public:
+  public:
 
-	UFUNCTION(BlueprintCallable,Category="MeshLoader")
-	static FReturnedData LoadMesh(FString filepath,EPathType type= EPathType::Relative);
+  UFUNCTION(BlueprintCallable, Category = "MeshLoader")
+  static FReturnedData LoadMesh(FString filepath, EPathType type = EPathType::Relative);
+
 };

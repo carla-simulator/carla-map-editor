@@ -7,4 +7,4 @@
 #include "CarlaEditor.h"
 #include "Modules/ModuleManager.h"
 
-IMPLEMENT_PRIMARY_GAME_MODULE( FDefaultGameModuleImpl, CarlaEditor, "CarlaEditor" );
+IMPLEMENT_PRIMARY_GAME_MODULE(FDefaultGameModuleImpl, CarlaEditor, "CarlaEditor");

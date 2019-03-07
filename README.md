@@ -20,7 +20,7 @@ best to switch to the `stable` branch.
 
 Run Update.sh to download the assets to the Content folder. 
 
-Run make to open the Unreal Editor and from here the project can be packaged by selecting Package Project from the Edit menu.
+Run make to open the Unreal Editor and from here the project can be packaged by selecting Package Project from the Edit menu. (A script to automate this will be added soon)
 
 
 Using the CARLA Map Editor
@@ -33,7 +33,7 @@ Using the CARLA Map Editor
  
 - A spawned actor can be selected by clicking on it in the world or by selecting it from the actor table.
 
-- A traffic light actor must belong to a traffic group. A selected traffic light can be assigned a traffic group by selecting the group in the combo box.
+- A traffic light actor must belong to a traffic group. Otherwise it will be ignored. A selected traffic light can be assigned a traffic group by selecting the group in the combo box.
 
 - Speed signs and traffic lights also have box triggers for detecting nearby vehicles. The box extents and relative transforms can also be modified.
 
@@ -51,7 +51,7 @@ Controls:
 - The export button exports the current data to the XODR file.
 
 Importing/Exporting FBX and XODR:
-- Create directories called Import and Export (case-sensitive) in the same folder as CarlaEditor.sh. 
+- Create directories called Import and Export (case-sensitive) and place them in the CarlaEditor folder. 
 - Place FBX and XODR files in the Import directory. The files can have any name.
 - The modifed XODR file will be created in the Export directory.
 

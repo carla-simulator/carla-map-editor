@@ -11,88 +11,85 @@
 #include "PugiXML/pugixml.hpp"
 #include "DataExporter.generated.h"
 
-
 USTRUCT(BlueprintType)
-struct FEditorTrafficSignData
-{
-	GENERATED_USTRUCT_BODY()
+struct FEditorTrafficSignData {
+  GENERATED_USTRUCT_BODY()
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FVector Location;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FVector Location;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FRotator Rotation;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FRotator Rotation;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FVector Scale;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FVector Scale;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FVector TriggerBoxLocation;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FVector TriggerBoxLocation;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FRotator TriggerBoxRotation;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FRotator TriggerBoxRotation;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FVector TriggerBoxScale;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FVector TriggerBoxScale;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
-	FVector TriggerBoxExtent;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficSignData")
+  FVector TriggerBoxExtent;
 };
 
 USTRUCT(BlueprintType)
-struct FEditorSpeedSignData : public FEditorTrafficSignData
-{
-	GENERATED_USTRUCT_BODY()
+struct FEditorSpeedSignData : public FEditorTrafficSignData {
+  GENERATED_USTRUCT_BODY()
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorSpeedSignData")
-	float Speed;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorSpeedSignData")
+  float Speed;
 };
 
 USTRUCT(BlueprintType)
-struct FEditorTrafficLightData : public FEditorTrafficSignData
-{
-	GENERATED_USTRUCT_BODY()
+struct FEditorTrafficLightData : public FEditorTrafficSignData {
+  GENERATED_USTRUCT_BODY()
 };
 
 USTRUCT(BlueprintType)
-struct FEditorTrafficLightGroupData
-{
-	GENERATED_USTRUCT_BODY()
+struct FEditorTrafficLightGroupData {
+  GENERATED_USTRUCT_BODY()
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
-	float GreenTime;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
+  float GreenTime;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
-	float YellowTime;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
+  float YellowTime;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
-	float RedTime;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
+  float RedTime;
 
-	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
-	TArray<FEditorTrafficLightData> TrafficLights;
+  UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "EditorTrafficLightGroupData")
+  TArray<FEditorTrafficLightData> TrafficLights;
 };
 
 /**
  *
  */
 UCLASS(BlueprintType)
-class CARLAEDITOR_API UDataExporter : public UObject
-{
-	GENERATED_BODY()
+class CARLAEDITOR_API UDataExporter : public UObject {
+  GENERATED_BODY()
 
-	private:
-		pugi::xml_document MainDoc;
+  private:
 
-	public:
-		UFUNCTION(BlueprintCallable, Category="DataExporter|File")
-		void Load(FString& FilePath);
+  pugi::xml_document MainDoc;
 
-		UFUNCTION(BlueprintCallable, Category="DataExporter|CRUD")
-		void AddTrafficLightGroups(TArray<FEditorTrafficLightGroupData> TrafficLightGroups);
+  public:
 
-		UFUNCTION(BlueprintCallable, Category="DataExporter|CRUD")
-		void AddTrafficSigns(TArray<FEditorSpeedSignData> TrafficSigns);
+  UFUNCTION(BlueprintCallable, Category = "DataExporter|File")
+  void Load(FString &FilePath);
 
-		UFUNCTION(BlueprintCallable, Category="DataExporter|File")
-		void Save(FString& FilePath);
+  UFUNCTION(BlueprintCallable, Category = "DataExporter|CRUD")
+  void AddTrafficLightGroups(TArray<FEditorTrafficLightGroupData> TrafficLightGroups);
+
+  UFUNCTION(BlueprintCallable, Category = "DataExporter|CRUD")
+  void AddTrafficSigns(TArray<FEditorSpeedSignData> TrafficSigns);
+
+  UFUNCTION(BlueprintCallable, Category = "DataExporter|File")
+  void Save(FString &FilePath);
+
 };

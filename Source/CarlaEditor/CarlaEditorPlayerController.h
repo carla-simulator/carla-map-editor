@@ -19,83 +19,85 @@ class UBoxComponent;
  *
  */
 UCLASS()
-class CARLAEDITOR_API ACarlaEditorPlayerController : public APlayerController
-{
-	GENERATED_BODY()
+class CARLAEDITOR_API ACarlaEditorPlayerController : public APlayerController {
+  GENERATED_BODY()
 
-	public:
-		ACarlaEditorPlayerController(const FObjectInitializer &ObjectInitializer);
+  public:
 
-		virtual void BeginPlay() override;
+  ACarlaEditorPlayerController(const FObjectInitializer &ObjectInitializer);
 
-		virtual void Tick(float DeltaSeconds) override;
+  virtual void BeginPlay() override;
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-  	AActor* GetControlledActor() const
-		{
-			return ControlledActor;
-		}
+  virtual void Tick(float DeltaSeconds) override;
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-  	void SetControlledActor(AActor* InControlledActor);
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  AActor *GetControlledActor() const
+  {
+    return ControlledActor;
+  }
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-  	AActorControl* GetActorControl() const
-		{
-			return ActorControl;
-		}
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  void SetControlledActor(AActor *InControlledActor);
 
-		UFUNCTION(BlueprintCallable, Category = "Editor Controller")
-		UEditorGUI* GetEditorGUI() const
-		{
-			return EditorGUI;
-		}
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  AActorControl *GetActorControl() const
+  {
+    return ActorControl;
+  }
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-  	UBoxComponent* GetControlledActorBoxComponent();
+  UFUNCTION(BlueprintCallable, Category = "Editor Controller")
+  UEditorGUI *GetEditorGUI() const
+  {
+    return EditorGUI;
+  }
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-		AActor* SpawnActor(UClass* ActorClass);
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  UBoxComponent *GetControlledActorBoxComponent();
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-		void DeleteControlledActor();
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  AActor *SpawnActor(UClass * ActorClass);
 
-	protected:
-		virtual void SetupInputComponent() override;
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  void DeleteControlledActor();
 
-		UFUNCTION(Category = "Editor Controller", BlueprintCallable)
-		virtual void PlaceActorControl();
+  protected:
 
-		UPROPERTY(Category = "Editor Controller", BlueprintReadWrite, VisibleAnywhere)
-		AActorControl* ActorControl;
+  virtual void SetupInputComponent() override;
 
-	private:
-		void ConsumeLeftMouseButtonPressed();
+  UFUNCTION(Category = "Editor Controller", BlueprintCallable)
+  virtual void PlaceActorControl();
 
-		void ConsumeLeftMouseButtonReleased();
+  UPROPERTY(Category = "Editor Controller", BlueprintReadWrite, VisibleAnywhere)
+  AActorControl *ActorControl;
 
-		void ConsumeRightMouseButtonDoubleClick();
+  private:
 
-		void ConsumeDeleteClick();
+  void ConsumeLeftMouseButtonPressed();
 
-		void ConsumeMouseXMovement(float Value);
+  void ConsumeLeftMouseButtonReleased();
 
-		void ConsumeMouseYMovement(float Value);
+  void ConsumeRightMouseButtonDoubleClick();
 
-		void DisplayGUI();
+  void ConsumeDeleteClick();
 
-		void DisplayActorTable();
+  void ConsumeMouseXMovement(float Value);
 
-		void ConsumeEscClick();
+  void ConsumeMouseYMovement(float Value);
 
-		UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
-		UEditorGUI* EditorGUI;
+  void DisplayGUI();
 
-		UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
-		AActor* ControlledActor;
+  void DisplayActorTable();
 
-		UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
-		bool bLeftMouseDown = false;
+  void ConsumeEscClick();
 
-		ACarlaEditorGameModeBase* GameMode;
+  UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
+  UEditorGUI *EditorGUI;
+
+  UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
+  AActor *ControlledActor;
+
+  UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
+  bool bLeftMouseDown = false;
+
+  ACarlaEditorGameModeBase *GameMode;
 };

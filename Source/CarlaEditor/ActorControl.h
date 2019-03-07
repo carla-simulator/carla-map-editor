@@ -11,48 +11,48 @@
 #include "ActorControl.generated.h"
 
 UCLASS()
-class CARLAEDITOR_API AActorControl : public AActor
-{
-	GENERATED_BODY()
+class CARLAEDITOR_API AActorControl : public AActor {
+  GENERATED_BODY()
 
-public:
-	// Sets default values for this actor's properties
-	AActorControl();
+  public:
 
-		// Called every frame
-	virtual void Tick(float DeltaTime) override;
+  // Sets default values for this actor's properties
+  AActorControl();
 
-	UFUNCTION(Category="Actor Control", BlueprintCallable, BlueprintImplementableEvent, meta=(DisplayName = "On Deselect Request"))
-	void Deselect();
+  // Called every frame
+  virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(Category = "Actor Control", BlueprintCallable)
-	FVector GetDirection() const
-	{
-		return Direction;
-	}
+  UFUNCTION(Category = "Actor Control", BlueprintCallable, BlueprintImplementableEvent,
+      meta = (DisplayName = "On Deselect Request"))
+  void Deselect();
 
-	UFUNCTION(Category = "Actor Control", BlueprintCallable)
-	void SetDirection(FVector InDirection);
+  UFUNCTION(Category = "Actor Control", BlueprintCallable)
+  FVector GetDirection() const {
+    return Direction;
+  }
 
-	UFUNCTION(Category = "Actor Control", BlueprintCallable)
-	bool IsHeld() const
-	{
-		return bIsHeld;
-	}
+  UFUNCTION(Category = "Actor Control", BlueprintCallable)
+  void SetDirection(FVector InDirection);
 
-	UFUNCTION(Category = "Actor Control", BlueprintCallable)
-	void SetIsHeld(bool bInIsHeld);
+  UFUNCTION(Category = "Actor Control", BlueprintCallable)
+  bool IsHeld() const {
+    return bIsHeld;
+  }
 
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
+  UFUNCTION(Category = "Actor Control", BlueprintCallable)
+  void SetIsHeld(bool bInIsHeld);
 
-	UPROPERTY(Category = "Actor Control", BlueprintReadWrite, VisibleAnywhere)
-	FVector Direction = FVector(0, 0, 0);
+  protected:
 
-	UPROPERTY(Category = "Actor Control", BlueprintReadWrite, VisibleAnywhere)
-	bool bIsHeld = false;
+  // Called when the game starts or when spawned
+  virtual void BeginPlay() override;
 
-public:
+  UPROPERTY(Category = "Actor Control", BlueprintReadWrite, VisibleAnywhere)
+  FVector Direction = FVector(0, 0, 0);
+
+  UPROPERTY(Category = "Actor Control", BlueprintReadWrite, VisibleAnywhere)
+  bool bIsHeld = false;
+
+  public:
 
 };

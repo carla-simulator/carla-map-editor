@@ -12,61 +12,65 @@
 #include "DataExporter.h"
 #include "CarlaEditorGameModeBase.generated.h"
 
-
 /**
  *
  */
 UCLASS()
-class CARLAEDITOR_API ACarlaEditorGameModeBase : public AGameModeBase
-{
-	GENERATED_BODY()
+class CARLAEDITOR_API ACarlaEditorGameModeBase : public AGameModeBase {
+  GENERATED_BODY()
 
-	public:
-		ACarlaEditorGameModeBase(const FObjectInitializer& ObjectInitializer);
+  public:
 
-		/** Remove the current menu widget and create a new one from the specified class, if provided. */
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		void ChangeMenuWidget(TSubclassOf<UEditorGUI> NewWidgetClass);
+  ACarlaEditorGameModeBase(const FObjectInitializer &ObjectInitializer);
 
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		UEditorGUI* GetEditorGUI() const
-		{
-			return EditorGUI;
-		}
+  /** Remove the current menu widget and create a new one from the specified
+     class, if provided. */
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  void ChangeMenuWidget(TSubclassOf<UEditorGUI> NewWidgetClass);
 
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		UDataExporter* GetDataExporter()
-		{
-			return DataExporter;
-		}
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  UEditorGUI *GetEditorGUI() const
+  {
+    return EditorGUI;
+  }
 
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		void ImportOpenDriveFile();
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  UDataExporter *GetDataExporter() {
+    return DataExporter;
+  }
 
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		void ExportOpenDriveFile();
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  void ImportOpenDriveFile();
 
-	protected:
-		virtual void BeginPlay() override;
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  void ExportOpenDriveFile();
 
-		UFUNCTION(BlueprintCallable, Category = "Carla Editor")
-		void LoadMeshes();
+  protected:
 
-		UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Carla Editor")
-		TSubclassOf<UEditorGUI> StartingWidgetClass;
+  virtual void BeginPlay() override;
 
-		UPROPERTY(VisibleAnywhere, Category = "Carla Editor")
-		UEditorGUI* EditorGUI;
+  UFUNCTION(BlueprintCallable, Category = "Carla Editor")
+  void LoadMeshes();
 
-	private:
-		static TArray<FString> GetAllFilesInDirectory(const FString Directory, const FString OnlyFilesStartingWith = "", const FString OnlyFilesWithExtension = "");
+  UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Carla Editor")
+  TSubclassOf<UEditorGUI> StartingWidgetClass;
 
-		TMap<FString, UMaterial*> NameMaterialMap;
+  UPROPERTY(VisibleAnywhere, Category = "Carla Editor")
+  UEditorGUI *EditorGUI;
 
-		UPROPERTY(VisibleAnywhere, Category = "Carla Editor")
-		UDataExporter* DataExporter;
+  private:
 
-		static const FString ImportDirectory;
+  static TArray<FString> GetAllFilesInDirectory(
+      const FString Directory,
+      const FString OnlyFilesStartingWith = "",
+      const FString OnlyFilesWithExtension = "");
 
-		static const FString ExportDirectory;
+  TMap<FString, UMaterial *> NameMaterialMap;
+
+  UPROPERTY(VisibleAnywhere, Category = "Carla Editor")
+  UDataExporter *DataExporter;
+
+  static const FString ImportDirectory;
+
+  static const FString ExportDirectory;
 };
