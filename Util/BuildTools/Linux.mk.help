@@ -1,0 +1,44 @@
+Welcome to CARLA Simulator!
+===========================
+
+This Makefile will help you building the different CARLA Editor utilities.
+
+Use the following commands:
+
+    help:
+
+        Display this help message.
+
+    launch:
+
+        Compile CarlaEditor project and launch it in Unreal Engine's Editor.
+
+    launch-only:
+
+        Launch CarlaEditor project in Unreal Engine's Editor, but skip building
+        step (assume the project is already built).
+
+    package:
+
+        Makes a packaged version of the CARLA Editor ready for distribution.
+
+    docs:
+
+        Build CARLA Doxygen documentation.
+
+    clean:
+
+        Remove intermediate build files.
+
+    rebuild:
+
+        Remove intermediate build files and rebuild the whole project.
+
+    hard-clean:
+
+        Remove intermediate build files and force a recompilation of Unreal
+        Engine's pre-compiled headers. Useful for fixing "version.h has been
+        modified since the precompiled header" errors. Beware, recompilation
+        takes a long time!
+
+

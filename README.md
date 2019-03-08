@@ -20,7 +20,7 @@ best to switch to the `stable` branch.
 
 Run Update.sh to download the assets to the Content folder. 
 
-Run make to open the Unreal Editor and from here the project can be packaged by selecting Package Project from the Edit menu. (A script to automate this will be added soon)
+Run make in the Unreal/CarlaEditor folder to open the Unreal Editor and from here the project can be packaged by selecting Package Project from the Edit menu. (A script to automate this will be added soon)
 
 
 Using the CARLA Map Editor

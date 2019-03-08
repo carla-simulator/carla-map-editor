@@ -1,0 +1,12 @@
+# Here CURDIR is assumed to be the root folder of the project.
+
+CARLA_ROOT_FOLDER=${CURDIR}
+CARLA_BUILD_FOLDER=${CURDIR}/Build
+CARLA_DIST_FOLDER=${CURDIR}/Dist
+CARLA_BUILD_TOOLS_FOLDER=${CURDIR}/Util/BuildTools
+CARLA_TEST_RESULTS_FOLDER=${CARLA_BUILD_FOLDER}/test-results
+
+CARLA_EDITOR_ROOT_FOLDER=${CURDIR}/Unreal/CarlaEditor
+CARLA_EDITOR_PLUGIN_ROOT_FOLDER=${CURDIR}/Unreal/CarlaEditor/Plugins/RuntimeMeshLoader
+
+CMAKE_CONFIG_FILE=${CARLA_BUILD_FOLDER}/CMakeLists.txt.in

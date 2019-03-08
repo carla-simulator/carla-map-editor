@@ -44,7 +44,7 @@ done
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 pushd "$SCRIPT_DIR" >/dev/null
 
-CONTENT_FOLDER=$SCRIPT_DIR/Content/Carla
+CONTENT_FOLDER=$SCRIPT_DIR/Unreal/CarlaEditor/Content/Carla
 
 CONTENT_GDRIVE_ID=$(tac $SCRIPT_DIR/Util/ContentVersions.txt | egrep -m 1 . | rev | cut -d' ' -f1 | rev)
 
