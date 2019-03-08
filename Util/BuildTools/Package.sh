@@ -75,11 +75,16 @@ if $DO_PACKAGE ; then
 
   popd >/dev/null
 
+  if [[ ! -d ${BUILD_FOLDER}/LinuxNoEditor ]] ; then
+    fatal_error "Failed to package the project!"
+  else
+    pushd "${BUILD_FOLDER}/LinuxNoEditor/CarlaEditor" >/dev/null
+    mkdir Import Export
+    popd >/dev/null
+  fi
+
 fi
 
-if [[ ! -d ${BUILD_FOLDER}/LinuxNoEditor ]] ; then
-  fatal_error "Failed to package the project!"
-fi
 
 
 # ==============================================================================

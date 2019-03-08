@@ -2,7 +2,7 @@
 # *DO NOT EDIT*
 
 UNREALROOTPATH = /home/aclear/UnrealEngine_4.21
-GAMEPROJECTFILE =/home/aclear/carla/Unreal/CarlaEditor/CarlaEditor.uproject
+GAMEPROJECTFILE =/home/aclear/carla-map-editor/Unreal/CarlaEditor/CarlaEditor.uproject
 
 TARGETS = \
 	CarlaEditor-Linux-Debug  \

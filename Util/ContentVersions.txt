@@ -1,20 +1,10 @@
 # Here we keep a list of the Google Drive id's of the Content files. The last id
-# in the list it's picked up by the Setup.sh script to download the last version
+# in the list it's picked up by the Update.sh script to download the last version
 # of the contents.
 #
 # You can direct download with https://drive.google.com/open?id=PUT_FILE_ID_HERE
 
-0.5.4: 0B2HFV-VuKn3PYUFFanlmZ2VMTW8
-0.6.0: 1Gw8sw01hDEV4FtpHEZZwvS-6XN0jmaLT
-0.7.0: 11PKC_lG7L80L1ZxiMlzV17utU45UcRnT
-0.7.1: 1gf3YaFIjwr1EaK6qxq2V-a510Brt9Imq
-0.8.0: 1tA-WwKA0RNhBoENYunqF3-F_wg11dL86
-0.8.1: 1su5wQH7KJphAcirMA8VEDLndGigQ9tzq
-0.8.2: 1llrBkZDvJmxXYh4r3jz0wuwz8Q8jRQeZ
-0.8.3: 1z2XKOk9LoKI-EhxcrpI31W5TeYo2-jjn
-0.8.4: 1mFNS-w5atQ45yegiTepRIeKBYVm8N8He
-0.9.0: 1FtC00CrDb7Kz5StBAwb6vqOGbzZtpROx
-0.9.1: 1IZDzNQNVL67h8UlGyKuGegLH612Ifd7H
-0.9.2: 1RKRGB22U5t80q4zwYXBJvxQXhzNjaaDf
-0.9.3: 1jJlStNHpey62CrMkWVfmtQcJGO7PaD0R
-0.9.4: 1igXcpat0FA7Bv3OlGUx-g1FhacY27N-i
+0.9.4: 1Fx5RrNGaOU8EK_1UnYsZ2ahe9Unnevyl
+
+
+       

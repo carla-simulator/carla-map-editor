@@ -3,13 +3,13 @@ default: help
 help:
 	@less ${CARLA_BUILD_TOOLS_FOLDER}/Linux.mk.help
 
-launch: CarlaEditor
-	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaUE4.sh --build --launch
+launch: 
+	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaEditor.sh --build --launch
 
 launch-only:
-	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaUE4.sh --launch
+	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaEditor.sh --launch
 
-package: CarlaEditorEditor
+package: 
 	@${CARLA_BUILD_TOOLS_FOLDER}/Package.sh $(ARGS)
 
 docs:
@@ -19,7 +19,7 @@ docs:
 clean:
 	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaEditor.sh --clean
 
-rebuild: setup
+rebuild: 
 	@${CARLA_BUILD_TOOLS_FOLDER}/BuildCarlaEditor.sh --rebuild
 
 hard-clean:

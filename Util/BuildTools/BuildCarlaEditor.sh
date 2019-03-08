@@ -26,7 +26,6 @@ BUILD_CARLA_EDITOR=false
 LAUNCH_UE4_EDITOR=false
 
 OPTS=`getopt -o h --long help,build,rebuild,launch,clean,hard-clean -n 'parse-options' -- "$@"`
-ED="/home/aclear/carla/Unreal/CarlaEditor"
 
 if [ $? != 0 ] ; then echo "$USAGE_STRING" ; exit 2 ; fi
 
