@@ -90,6 +90,8 @@ class CARLAEDITOR_API ACarlaEditorPlayerController : public APlayerController {
 
   void ConsumeEscClick();
 
+  void OutlineControlledActor(bool Outline);
+
   UPROPERTY(Category = "Editor Controller", VisibleAnywhere)
   UEditorGUI *EditorGUI;
 

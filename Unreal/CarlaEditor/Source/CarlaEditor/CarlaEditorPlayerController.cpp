@@ -7,6 +7,7 @@
 #include "CarlaEditorPlayerController.h"
 #include "CarlaEditorGameModeBase.h"
 #include "ActorControl.h"
+#include "Components/ShapeComponent.h"
 #include "Components/BoxComponent.h"
 #include "GameFramework/PlayerInput.h"
 
@@ -69,15 +70,44 @@ void ACarlaEditorPlayerController::SetupInputComponent() {
 }
 
 void ACarlaEditorPlayerController::SetControlledActor(AActor *InControlledActor) {
+  if (ControlledActor != nullptr && !ControlledActor->IsPendingKill()) {
+    OutlineControlledActor(false);
+  }
   ControlledActor = InControlledActor;
-  if (ControlledActor == nullptr) {
+  if (InControlledActor == nullptr) {
     EditorGUI->DisplayActorDetails(false);
     ActorControl->SetActorHiddenInGame(true);
   } else {
     EditorGUI->DisplayActorDetails(true);
     EditorGUI->UpdateActorDetails();
+    OutlineControlledActor(true);
     PlaceActorControl();
     ActorControl->SetActorHiddenInGame(false);
+  }
+}
+
+void ACarlaEditorPlayerController::OutlineControlledActor(bool Outline) {
+  TArray<USceneComponent *> Components;
+  ControlledActor->GetRootComponent()->GetChildrenComponents(true, Components);
+  for (auto Component : Components) {
+    // Custom depth working only for static mesh components.
+    // Therefore we need to change the color of shape components instead.
+    if (Component->GetClass()->IsChildOf(UShapeComponent::StaticClass())) {
+      auto Shape = static_cast<UShapeComponent *>(Component);
+      if (Outline) {
+        Shape->ShapeColor = FColor(255, 255, 0, 255);
+      } else {
+        Shape->ShapeColor = FColor(223, 149, 157, 255);
+      }
+      // Inform the engine to update the rendering info
+      Shape->MarkRenderStateDirty();
+    } else {
+      if (Component->GetClass()->IsChildOf(UPrimitiveComponent::StaticClass())) {
+        auto Primitive = static_cast<UPrimitiveComponent *>(Component);
+        Primitive->SetCustomDepthStencilValue(253);
+        Primitive->SetRenderCustomDepth(Outline);
+      }
+    }
   }
 }
 
@@ -129,9 +159,7 @@ void ACarlaEditorPlayerController::ConsumeLeftMouseButtonReleased() {
 void ACarlaEditorPlayerController::ConsumeRightMouseButtonDoubleClick() {
   if (!bLeftMouseDown) {
     EditorGUI->DeselectActor(ControlledActor);
-    ControlledActor = nullptr;
-    EditorGUI->DisplayActorDetails(false);
-    ActorControl->SetActorHiddenInGame(true);
+    SetControlledActor(nullptr);
   }
 }
 
