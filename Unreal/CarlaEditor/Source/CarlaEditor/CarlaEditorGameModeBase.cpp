@@ -19,8 +19,10 @@ ACarlaEditorGameModeBase::ACarlaEditorGameModeBase(const FObjectInitializer &Obj
       "Material'/Game/Carla/Static/GenericMaterials/LaneMarking/M_MarkingLane_Y.M_MarkingLane_Y'"));
   static ConstructorHelpers::FObjectFinder<UMaterial> MarkingNode(TEXT(
       "Material'/Game/Carla/Static/GenericMaterials/LaneMarking/M_MarkingLane_W.M_MarkingLane_W'"));
-  static ConstructorHelpers::FObjectFinder<UMaterial> TerrainNodeMaterial(TEXT(
+  static ConstructorHelpers::FObjectFinder<UMaterial> TerrainNode(TEXT(
       "Material'/Game/Carla/Static/GenericMaterials/Grass/M_Grass01.M_Grass01'"));
+  static ConstructorHelpers::FObjectFinder<UMaterial> ConcreteNode(TEXT(
+      "Material'/Game/Carla/Static/GenericMaterials/Concrete/M_Concrete_04'"));
 
   if (RoadNode.Succeeded()) {
     NameMaterialMap.Add("Asphalt", (UMaterial *) RoadNode.Object);
@@ -31,8 +33,11 @@ ACarlaEditorGameModeBase::ACarlaEditorGameModeBase(const FObjectInitializer &Obj
   if (MarkingNode.Succeeded()) {
     NameMaterialMap.Add("LaneMarkingWhite", (UMaterial *) MarkingNode.Object);
   }
-  if (TerrainNodeMaterial.Succeeded()) {
-    NameMaterialMap.Add("Grass", (UMaterial *) TerrainNodeMaterial.Object);
+  if (TerrainNode.Succeeded()) {
+    NameMaterialMap.Add("Grass", (UMaterial *) TerrainNode.Object);
+  }
+  if (ConcreteNode.Succeeded()) {
+    NameMaterialMap.Add("Concrete", (UMaterial *) ConcreteNode.Object);
   }
 }
 
