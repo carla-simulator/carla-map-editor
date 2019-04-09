@@ -18,6 +18,8 @@ Use `git clone` or download the project from this page. Note that the master
 branch contains the latest fixes and features, for the latest stable code may be
 best to switch to the `stable` branch.
 
+Ensure your linux environment is set up for CARLA. [See here](https://carla.readthedocs.io/en/latest/how_to_build_on_linux/)
+
 Run Update.sh to download the assets to the Content folder. 
 
 Run make --package to build the Carla Editor distribution package and create the application.
